@@ -1,5 +1,5 @@
 {
-  "name": "node-basic-setup",
+  "name": "twtterfollower",
   "version": "1.0.0",
   "description": "Express Nodemon setup",
   "main": "index.js",
@@ -8,9 +8,10 @@
     "dev": "nodemon src/app.js"
   },
   "keywords": [],
-  "author": "Sushant <sushantbasak73@gmail.com>",
+  "author": "Sushant",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.22.0",
     "dotenv": "^10.0.0",
     "express": "^4.17.1"
   },
