@@ -6,7 +6,7 @@ const axios = require('axios');
 
 const port = process.env.PORT || 3000;
 
-const token = process.env.AUTH_KEY;
+const token = process.env.TOKEN;
 const apiUrl = process.env.API_URL;
 const apiUrl2 = process.env.API_URL2;
 
